@@ -2,7 +2,7 @@ let express = require("express");
 
 let app = express();
 
-let path = requre("path");
+let path = require("path");
 
 // random route to landing page
 app.get("/", (req, res) => {
